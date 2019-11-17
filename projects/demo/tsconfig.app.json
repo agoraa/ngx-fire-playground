@@ -1,0 +1,33 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../out-tsc/app",
+    "types": [],
+    "paths": {
+      "ngx-fire": [
+        "../../dist/ngx-fire"
+      ],
+      "ngx-fire/*": [
+        "../../dist/ngx-fire/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@app/features/*": [
+        "src/app/features/*"
+      ]
+    }
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
+  ]
+}
