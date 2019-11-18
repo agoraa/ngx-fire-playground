@@ -46,3 +46,4 @@ testem.log
 Thumbs.db
 
 /projects/ngx-fire/node_modules
+/projects/demo/src/environments/*
